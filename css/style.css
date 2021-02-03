@@ -1,0 +1,369 @@
+body {
+	font-family: 'Raleway';
+	padding: 10px;
+}
+
+.reservialogo {
+	height: 50px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+.signup {
+	display: relative;
+	float: right;
+	margin-top: 25px;
+	color: #0065FC;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.navaccomodations {
+	position: relative;
+	right: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #0065FC;
+	margin-left: 30px;
+}
+
+.navaccomodations a {
+	text-decoration: none;
+	color: #0065FC;
+}
+
+.navactivities {
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #F2F2F2;
+	margin-right: 30px;
+}
+
+.navactivities a {
+	text-decoration: none;
+	color: black;
+}
+
+.search {
+	width: 250px;
+	height: 40px;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid #F2F2F2;
+	border-bottom: 2px solid #F2F2F2;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+	font-family: 'Raleway';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.filters div {
+	margin: 7px;
+	height: 38px;
+	display: inline;
+}
+
+.filters a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.fa-map-marker-alt {
+	background-color: #F2F2F2;
+	position: relative;
+	left: 4px;
+	height: 30px;
+	border: 1px solid #F2F2F2;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 13px;
+	padding-bottom: 1px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.search-btn {
+	position: relative;
+	right: 15px;
+	background-color: #0065FC;
+	color: white;
+	height: 45px;
+	width: 45px;
+	border-radius: 15px;
+}
+
+.filter-title {
+	font-weight: bold;
+}
+
+.fa-money-bill-wave {
+	font-size: 80%; 
+	position: relative;
+	right: 15px;
+	bottom: 2px;
+	border: 0px solid #DEEBFF;
+	border-radius: 50%;
+	padding: 15px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+}
+
+.low-cost {
+	position: relative;
+	left: 15px;
+	border: 2px solid #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: none;
+}
+
+.fa-heart {
+	font-size: 80%; 
+	position: relative;
+	right: 13px;
+	bottom: 2px;
+	border: 0px solid #DEEBFF;
+	border-radius: 50%;
+	padding: 15px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+}
+
+.romantic {
+	position: relative;
+	left: 20px;
+	border: 2px solid #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: -10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: none;
+
+}
+
+.romantic a {
+	position: relative;
+	left: 10px;
+}
+
+.fa-child {
+	font-size: 80%; 
+	position: relative;
+	right: 35px;
+	bottom: 2px;
+	border: 0px solid #DEEBFF;
+	border-radius: 50%;
+	padding: 17px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.family-friendly {
+	position: relative;
+	left: 20px;
+	border: 2px solid #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: -10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: none;
+}
+
+.family-friendly a {
+	position: relative;
+	right: 15px;
+}
+
+
+.fa-dog {
+	font-size: 80%; 
+	position: relative;
+	right: 29px;
+	bottom: 2px;
+	border: 0px solid #DEEBFF;
+	border-radius: 50%;
+	padding: 15px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.pets-allowed {
+	position: relative;
+	left: 15px;
+	border: 2px solid #F2F2F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: none;
+
+}
+
+.pets-allowed a {
+	position: relative;
+	left: -7px;
+}
+
+.fa-info {
+	font-size: 11px;
+	color: #0065FC;
+	border: 2px solid #F2F2F2;
+	padding: 6px 8px 6px 8px;
+	border-radius: 50%;
+}
+
+.info {
+	font-family: 'Raleway';
+	font-weight: normal;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.popular p {
+	font-weight: bold;
+	font-size: 22px;
+	position: relative;
+	left: 17px;
+	top: 20px;
+}
+
+.popular {
+	background-color: #F2F2F2;
+	height: 580px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: 20px;
+}
+
+.fa-chart-line {
+	position: relative;
+	float: right;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+}
+
+.poprooms img{
+	position: relative;
+	top: 3px;
+	left: 3px;
+	width: 135px;
+	height: 135px;
+	float: left;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
+
+.poprooms {
+	padding-bottom: 45px;
+	border: 3px solid white;
+	height: 95px;
+	background-color: white;
+	border-radius: 20px;
+	width: 402px;
+}
+
+.popular figcaption {
+	position: relative;
+	left: 30px;
+	top: 15px;	
+}
+
+.popular a {
+	text-decoration: none;
+	color: black;
+}
+
+.grey {
+	color: gray;
+}
+
+.blue {
+	color: #0065FC;
+}
+
+.accomp {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.accom img {
+	width: 390px;
+	height: 140px;	
+	padding-top: 6px;
+	padding-left: 6px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.rooms {
+	position: relative;
+	right: 15px;
+	width: 402px;
+	height: 230px;
+	border: 1px solid #F2F2F2;
+	color: black;
+	border-radius: 25px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.accomodations a {
+	text-decoration: none;
+}
+
+.accomodations figcaption {
+	padding-left: 10px;
+	line-height: 1.5;
+}
+
+.accomodations p {
+	color: black;
+}
+
+.activities p {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.activities figcaption {
+	font-weight: bold;
+	color: black;
+	padding-left: 10px;
+}
+
+.activities img {
+	width: 100%;
+	max-height: 140px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.activities a {
+	text-decoration: none;
+}
