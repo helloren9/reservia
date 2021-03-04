@@ -327,7 +327,7 @@ body {
 }
 
 .accom img {
-	width: 390px;
+	width: 382px;
 	height: 140px;	
 	padding-top: 6px;
 	padding-left: 6px;
@@ -337,8 +337,8 @@ body {
 
 .rooms {
 	position: relative;
-	right: 15px;
-	width: 402px;
+	right: 25px;
+	width: 393px;
 	height: 230px;
 	border: 1px solid #F2F2F2;
 	color: black;
@@ -365,7 +365,7 @@ body {
 
 .activities {
 	position: relative;
-	right: 15px;
+	right: 20px;
 	width: 100%;
 }
 
@@ -383,10 +383,11 @@ body {
 .activities figure {
 	width: 402px;
 	border-bottom: 1px solid #F2F2F2;
-	margin-top: 20px;
+	margin-top: 15px;
 	box-shadow: 1px 3px 3px #F2F2F2;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 .activities figcaption {
@@ -411,30 +412,186 @@ body {
 
 footer {
 	background-color: #F2F2F2;
-	width: 100%;
+	width: 450px;
 }
 
 footer h3 {
 	font-weight: bold;
 }
 
+.about {
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
 .about a {
 	display: flex;
-	line-height: 1.7em;
+	line-height: 2em;
 	text-decoration: none;
 	color: black;
+}
+
+.ouraccomodations {
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 .ouraccomodations a {
 	display: flex;
-	line-height: 1.7em;
+	line-height: 2em;
 	text-decoration: none;
 	color: black;
 }
 
+.assistance {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
 .assistance a {
 	display: flex;
-	line-height: 1.7em;
+	line-height: 2em;
 	text-decoration: none;
 	color: black;
+}
+
+@media (min-width: 768px){
+	
+	.navbar {
+		position: relative;
+		bottom: 77px;
+		left: 350px;
+	}
+
+	.navbar a {
+		text-decoration: none;
+	}
+
+	.navaccomodations {
+		position: relative;
+		bottom: 35px;
+		border-top: 2px solid #0065FC;
+		border-bottom: none;
+		width: 150px;
+		color: #0065FC;
+		padding-top: 35px;
+	}
+
+	.navactivities {
+		border-bottom: none;
+	}
+
+	.navactivities a {
+		color: black;
+	}
+
+	.description {
+		position: relative;
+		bottom: 110px;
+	}
+
+	.searchform {
+		position: relative;
+		bottom: 100px;
+	}
+
+	.filter-title {
+		position: relative;
+		bottom: 90px;
+	}
+
+	.filters {
+		width: 100%;	
+	}
+	.filters div {
+		position: relative;
+		bottom: 90px;
+	}
+
+	.family-friendly {
+		position: absolute;
+		left: 340px;
+		top: -145px;
+	}
+
+	.pets-allowed {
+		position: absolute;
+		top: -198px;
+		left: 555px;
+	}
+
+	.info {
+		position: relative;
+		bottom: 200px;
+	}
+
+	.popular {
+		position: relative;
+		bottom: 230px;
+		float: right;
+		width: 47%;
+		height: 600px;
+		border-radius: 20px;
+	}
+
+	.poprooms {
+		max-width: 400px;
+	}
+
+	.accomodations {
+		position: relative;
+		bottom: 210px;
+		width: 45%;
+		float: left;
+
+	}
+
+	.rooms {
+		width: 98%;
+		max-width: 400px;
+	}
+
+	.accom img {
+		width: 97%;
+		max-width: 400px;
+	}
+
+	.activities p {
+		position: absolute;
+		top: 1400px;
+	}
+
+	.activitiesfigs {
+		position: relative;
+		top: 860px;
+		right: 360px;
+		display: inline-grid;
+		grid-template-columns: 1fr 1fr;
+
+	}
+
+	.activities figure {
+		box-shadow: none;
+		max-width: 350px;
+	}
+
+	footer {
+		position: relative;
+		top: 850px;
+		width: 100%;
+	}
+
+	.about {
+		position: absolute;		
+	}
+
+	.assistance {
+		width: 50%;
+		position: relative;
+		bottom: 25px;
+	}
+	
+
+	
 }
