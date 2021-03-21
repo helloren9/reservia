@@ -117,6 +117,10 @@ body {
 	border-radius: 15px;
 }
 
+#btn-display {
+	display: none;
+}
+
 .filter-title {
 	font-weight: bold;
 }
@@ -300,6 +304,10 @@ body {
 	background-color: white;
 	border-radius: 20px;
 	width: 90%;
+}
+
+.poproombr {
+	display: none;
 }
 
 .popular figcaption {
@@ -496,6 +504,10 @@ footer h3 {
 		bottom: 100px;
 	}
 
+	#btn-display {
+		display: none;
+	}
+
 	.filter-title {
 		position: relative;
 		bottom: 90px;
@@ -504,6 +516,7 @@ footer h3 {
 	.filters {
 		width: 100%;	
 	}
+
 	.filters div {
 		position: relative;
 		bottom: 90px;
@@ -539,12 +552,15 @@ footer h3 {
 		max-width: 400px;
 	}
 
+	.poprrombr {
+		display: none;
+	}
+
 	.accomodations {
 		position: relative;
 		bottom: 210px;
 		width: 45%;
 		float: left;
-
 	}
 
 	.rooms {
@@ -557,6 +573,16 @@ footer h3 {
 		max-width: 400px;
 	}
 
+	.showmore {
+		position: relative;
+		bottom: 10px;
+	}
+
+	/*#activitysec {
+		position: relative;
+		top: 500px;
+	}*/
+
 	.activities p {
 		position: absolute;
 		top: 1400px;
@@ -568,7 +594,6 @@ footer h3 {
 		right: 360px;
 		display: inline-grid;
 		grid-template-columns: 1fr 1fr;
-
 	}
 
 	.activities figure {
@@ -593,5 +618,374 @@ footer h3 {
 	}
 	
 
+}
+
+@media (min-width: 992px) {
+
+	body {
+		background-color: white;
+	}
+
+	.navbar {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		left: 310px;
+	}
+
+	.description p {
+		position: relative;
+		bottom: 10px;
+	}
+
+	.searchform {
+		position: relative;
+		bottom: 120px;
+	}
+
+	.fa-map-marker-alt {
+		position: relative;
+	}
+
+	#btn-display {
+		display: block;
+		font-weight: bold;
+		font-size: 1.2em;
+		position: relative;
+		bottom: 3px;
+	}
+
+	.search-btn {
+		width: 90px;
+		position: relative;
+		top: 5px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+
+	.filters {
+		display: inline;
+		position: relative;
+		bottom: 25px;
+	}
+
+	.romantic {
+		position: relative;
+		left: 30px;
+	}
+
+	.family-friendly {
+		position: relative;
+		left: 365px;
+	}
+
+	.pets-allowed {
+		position: relative;
+		left: 595px;
+	}
+
+	.info {
+		position: relative;
+		bottom: 215px;
+	}
+
+	.popular {
+		width: 33%;
+		height: 650px;
+		position: relative;
+		bottom: 250px;
+	}
+
+	.popular p {
+		position: relative;
+		top: 10px;
+	}
+
+	.poprooms {
+		position: relative;
+		bottom: 20px;
+		left: -10px;
+		margin: 30px;
+	}
+
+	.poprooms img {
+		margin-right: -17px;
+	}
+
+	.poprooms figcaption {
+		position: relative;
+		right: 10px;
+	}
+
+	.poproombr {
+		display: inline;
+	}
+
+	.poproombr2 {
+		display: none;
+	}
+
+	.fa-chart-line {
+		position: relative;
+		bottom: 35px;
+	}
+
+	.accomodations {
+		width: 64%;
+		height: 650px;
+		background-color: #F2F2F2;
+		position: relative;
+		bottom: 250px;
+		border-radius: 20px;
+	}
+
+	.accomp {
+		position: relative;
+		left: 20px;
+		top: 5px;
+	}
+
+	.accomodations div {
+		width: 31%;
+		display: inline-block;
+		margin-right: 10px;
+		margin-left: -2px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.showmore {
+		position: relative;
+		left: 20px;
+	}
+
+	.rooms {
+		background-color: white;
+	}
+
+	.rooms img {
+		position: relative;
+		right: 2px;
+	}
+
+	.activities p {
+		position: absolute;
+		top: 430px;
+		left: 45px;
+	}
+
+	.activities figure {
+		max-width: 100%;
+	}
+
+	.activities {
+		max-width: 1260px;
+		max-height: 800px;
+	}
+
+	.activities img {
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.activities div {
+		width: 100%;
+	}
+
+	.activitiesfigs {
+		position: absolute;
+		top: 500px;
+		left: 25px;
+		width: 1200px;
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-template-rows: repeat(5, 100px);
+	}
+
+	.oldport {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.oldport img {
+		height: 380px;
+		width: 270px;
+		padding: 0px;
+	}
+
+	.oldport figure {
+		position: relative;
+		bottom: 25px;
+		right: 35px;
+		height: 450px;
+		width: 270px;
+		box-shadow: 1px 3px 3px #F2F2F2;
+	}
+
+	.oldport figcaption {
+		position: relative;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.pomeguesfort {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.pomeguesfort img {
+		height: 180px;
+		width: 280px;
+	}
+
+	.pomeguesfort figure {
+		position: relative;
+		bottom: 25px;
+		right: 35px;
+		height: 245px;
+		width: 270px;
+		box-shadow: 1px 3px 3px #F2F2F2;
+	}
+
+	.pomeguesfort figcaption {
+		position: relative;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.frioul {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 4;
+		grid-row-end: 6;
+	}
+
+	.frioul img {
+		width: 270px;
+		height: 118px;
+	}
+
+	.frioul figure {
+		position: relative;
+		bottom: 63px;
+		right: 35px;
+		height: 185px;
+		width: 270px;
+		box-shadow: 1px 3px 3px #F2F2F2;
+	}
+
+	.frioul figcaption {
+		position: relative;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.calanques {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.calanques img {
+		height: 380px;
+		width: 270px;
+		padding: 0px;
+	}
+
+	.calanques figure {
+		position: relative;
+		bottom: 25px;
+		right: 35px;
+		height: 450px;
+		width: 270px;
+		box-shadow: 1px 3px 3px #F2F2F2;
+	}
+
+	.calanques figcaption {
+		position: relative;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.nortedame {
+		grid-column-start: 4;
+		grid-column-end: 5;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.nortedame img {
+		height: 130px;
+		width: 270px;
+	}
+
+	.nortedame figure {
+		position: relative;
+		bottom: 25px;
+		right: 35px;
+		width: 270px;
+		height: 195px;
+		box-shadow: 1px 3px 3px #F2F2F2;
+	}
+
+	.nortedame figcaption {
+		position: relative;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.longchamp {
+		grid-column-start: 4;
+		grid-column-end: 5;
+		grid-row-start: 3;
+		grid-row-end: 5;
+	}
+
+	.longchamp img {
+		width: 270px;
+		height: 170px;
+	}
+
+	.longchamp figure {
+		position: relative;
+		bottom: 15px;
+		right: 35px;
+		width: 270px;
+		height: 240px;
+		box-shadow: 1px 3px 3px #F2F2F2;
+	}
+
+	.longchamp figcaption {
+		position: relative;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	footer {
+		position: absolute;
+		top: 1650px;
+		height: 250px;
+	}
+
+	.footers {
+		display: grid;
+		grid-auto-columns: 30% 30% 30%;
+	}
+
+	.ouraccomodations {
+		grid-column-start: 2;
+	}
+
+	.assistance {
+		grid-column-start: 3;
+		position: absolute;
+		bottom: 100px;
+
+	}
 	
 }
