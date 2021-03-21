@@ -66,7 +66,7 @@ body {
 }
 
 .search {
-	width: 230px;
+	width: 220px;
 	height: 40px;
 	border-right: none;
 	border-left: none;
@@ -79,6 +79,8 @@ body {
 	font-family: 'Raleway';
 	font-weight: bold;
 	font-size: 18px;
+	position: relative;
+	left: 5px;
 }
 
 .filters div {
@@ -149,6 +151,10 @@ body {
 	border-left: none;
 }
 
+.low-cost a:hover {
+	color: #0065FC;
+}
+
 .fa-heart {
 	font-size: 80%; 
 	position: relative;
@@ -178,6 +184,10 @@ body {
 .romantic a {
 	position: relative;
 	left: 10px;
+}
+
+.romantic a:hover {
+	color: #0065FC;
 }
 
 .fa-child {
@@ -212,6 +222,10 @@ body {
 	right: 15px;
 }
 
+.family-friendly a:hover {
+	color: #0065FC;
+}
+
 
 .fa-dog {
 	font-size: 80%; 
@@ -243,6 +257,10 @@ body {
 .pets-allowed a {
 	position: relative;
 	left: -7px;
+}
+
+.pets-allowed a:hover {
+	color: #0065FC;
 }
 
 .fa-info {
